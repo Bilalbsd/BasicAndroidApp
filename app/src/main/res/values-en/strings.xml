@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BasicAndroidApp</string>
+    <string name="label_firstname">Firstname:</string>
+    <string name="label_lastname">Lastname:</string>
+    <string name="label_age">Age:</string>
+    <string name="label_domain">Area of expertise:</string>
+    <string name="label_phoneNumber">Phone number:</string>
+    <string name="btn_return">Back</string>
+    <string name="btn_validate">Validate</string>
+</resources>

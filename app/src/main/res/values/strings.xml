@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BasicAndroidApp</string>
+    <string name="app_name" translatable="false">BasicAndroidApp</string>
 
     <string name="label_firstname">Prénom:</string>
     <string name="label_lastname">Nom:</string>
