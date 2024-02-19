@@ -20,5 +20,7 @@
     <string name="cancelled_validation">Vous avez annulé la validation</string>
     <string name="confirm_btn" translatable="false">Ok</string>
     <string name="confirm_text">Confirmer ces informations ?</string>
+    <string name="call_text">Appeler ?</string>
+    <string name="call_btn">Appeler</string>
 
 </resources>

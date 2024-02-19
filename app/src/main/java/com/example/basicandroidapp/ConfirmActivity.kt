@@ -1,5 +1,6 @@
 package com.example.basicandroidapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,7 +19,7 @@ class ConfirmActivity : AppCompatActivity() {
         val confirmButton = findViewById<Button>(R.id.ok_button)
         val returnButton = findViewById<Button>(R.id.back_button)
 
-        // Récupération des données saisies depuis l'intent
+        // Récupération des données saisies depuis l'incent explicite
         val lastname = intent.getStringExtra("lastname")
         val firstname = intent.getStringExtra("firstname")
         val age = intent.getStringExtra("age")
@@ -34,7 +35,9 @@ class ConfirmActivity : AppCompatActivity() {
 
         // Gestion du bouton OK pour lancer l'intent implicite : Appel téléphonique
         confirmButton.setOnClickListener {
-
+            val intentOnCall = Intent(this, CallActivity::class.java)
+            intentOnCall.putExtra("phoneNumber", phoneNumber)
+            startActivity(intentOnCall)
         }
 
         // Gestion du bouton Retour pour revenir à l'activité précédente
