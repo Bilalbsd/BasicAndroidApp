@@ -8,4 +8,12 @@
     <string name="label_phoneNumber">Phone number:</string>
     <string name="btn_return">Back</string>
     <string name="btn_validate">Validate</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="name_error">Please fill in the Lastname and Firstname fields.</string>
+    <string name="phoneNumber_error">Please fill in the Phone number field.</string>
+    <string name="title_validation">Confirm informations</string>
+    <string name="message_validation">Do you confirm the information provided?</string>
+    <string name="cancelled_validation">You have cancelled the validation</string>
+    <string name="confirm_text">Do you confirm ?</string>
 </resources>

@@ -8,4 +8,17 @@
     <string name="label_phoneNumber">Numéro de téléphone:</string>
     <string name="btn_return">Retour</string>
     <string name="btn_validate">Valider</string>
+
+    <string name="alert_yes">Oui</string>
+    <string name="alert_no">Non</string>
+
+    <string name="name_error">Veuillez renseigner les champs Nom et Prénom.</string>
+    <string name="phoneNumber_error">Veuillez renseigner le champ Numéro de téléphone.</string>
+
+    <string name="title_validation">Confirmer les informations</string>
+    <string name="message_validation">Confirmez-vous les informations renseignés ?</string>
+    <string name="cancelled_validation">Vous avez annulé la validation</string>
+    <string name="confirm_btn" translatable="false">Ok</string>
+    <string name="confirm_text">Confirmer ces informations ?</string>
+
 </resources>
