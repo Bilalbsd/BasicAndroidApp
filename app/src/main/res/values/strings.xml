@@ -22,5 +22,14 @@
     <string name="confirm_text">Confirmer ces informations ?</string>
     <string name="call_text">Appeler ?</string>
     <string name="call_btn">Appeler</string>
+    <string name="trainSchedule_title">Indiquez votre itinéraire !</string>
+    <string name="title_phone">Appeler</string>
+    <string name="title_train">Train</string>
+    <string name="title_agenda">Agenda</string>
+    <string name="home_title">Accueil</string>
+    <string name="train_departure">Départ</string>
+    <string name="train_arrival">Arrivé</string>
+    <string name="search">Rechercher</string>
+    <string name="hello_name">Bonjour, Bilal 👋</string>
 
 </resources>
