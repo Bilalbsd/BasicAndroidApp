@@ -31,5 +31,7 @@
     <string name="train_arrival">Arrivé</string>
     <string name="search">Rechercher</string>
     <string name="hello_name">Bonjour, Bilal 👋</string>
+    <string name="add_contact">Ajouter un contact</string>
+    <string name="itinary_subtitle">Plus de 1000 itinéraires possible...</string>
 
 </resources>

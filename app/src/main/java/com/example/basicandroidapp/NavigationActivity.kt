@@ -27,6 +27,20 @@ class NavigationActivity : AppCompatActivity() {
         agendaButton.setOnClickListener {
             agendaFunc(it)
         }
+
+        // Bouton pour changer de langue en français
+        val changeLanguageButtonFrench: Button = findViewById(R.id.changeLanguageBtnFrench)
+        changeLanguageButtonFrench.setOnClickListener {
+            setLocale("fr")
+            recreate()
+        }
+
+        // Bouton pour changer de langue en anglais
+        val changeLanguageButtonEnglish: Button = findViewById(R.id.changeLanguageBtnEnglish)
+        changeLanguageButtonEnglish.setOnClickListener {
+            setLocale("en")
+            recreate()
+        }
     }
 
     private fun callFunc(view: View) {
@@ -42,5 +56,17 @@ class NavigationActivity : AppCompatActivity() {
     private fun agendaFunc(view: View) {
         val i = Intent(this, CallActivity::class.java)
         startActivity(i)
+    }
+
+    // Méthode pour changer la langue de l'application
+    private fun setLocale(languageCode: String) {
+        val locale = Locale(languageCode)
+        Locale.setDefault(locale)
+        val configuration = Configuration()
+        configuration.setLocale(locale)
+        baseContext.resources.updateConfiguration(
+            configuration,
+            baseContext.resources.displayMetrics
+        )
     }
 }

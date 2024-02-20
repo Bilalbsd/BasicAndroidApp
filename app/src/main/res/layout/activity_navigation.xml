@@ -70,4 +70,28 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.235" />
 
+    <Button
+        android:id="@+id/changeLanguageBtnFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="80dp"
+        android:text="🇫🇷"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/changeLanguageBtnEnglish"
+        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/train_btn" />
+
+    <Button
+        android:id="@+id/changeLanguageBtnEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="76dp"
+        android:text="🇬🇧"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/train_btn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -27,4 +27,6 @@
     <string name="search">Search</string>
     <string name="trainSchedule_title">Indicate your itinerary!</string>
     <string name="hello_name">Hey, Bilal 👋</string>
+    <string name="add_contact">Add a contact</string>
+    <string name="itinary_subtitle">More than 1000 itinary possible...</string>
 </resources>

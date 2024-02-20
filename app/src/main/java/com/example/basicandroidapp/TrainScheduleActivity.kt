@@ -11,12 +11,6 @@ import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 
 class TrainScheduleActivity : AppCompatActivity() {
-
-    private lateinit var trainList: ListView
-    private lateinit var searchButton: Button
-    private lateinit var departure: EditText
-    private lateinit var arrival: EditText
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_train_schedule)
@@ -26,10 +20,10 @@ class TrainScheduleActivity : AppCompatActivity() {
             finish()
         }
 
-        trainList = findViewById(R.id.train_list)
-        searchButton = findViewById(R.id.search)
-        departure = findViewById(R.id.departure)
-        arrival = findViewById(R.id.arrival)
+        val trainList = findViewById<ListView>(R.id.train_list)
+        val searchButton = findViewById<Button>(R.id.search)
+        val departure = findViewById<EditText>(R.id.departure)
+        val arrival = findViewById<EditText>(R.id.arrival)
 
         val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1)
         trainList.adapter = adapter
@@ -51,7 +45,6 @@ class TrainScheduleActivity : AppCompatActivity() {
             if (selectedItem != null && selectedItem != "No result") {
                 val dep = departure.text.toString()
                 val arr = arrival.text.toString()
-                // Ouvrir le site sncf-connect.com avec le trajet spécifié
                 val url = "https://www.sncf-connect.com/train/trajet/$dep/$arr"
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
                 startActivity(intent)
