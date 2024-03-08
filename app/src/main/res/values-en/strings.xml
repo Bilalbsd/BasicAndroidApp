@@ -20,7 +20,7 @@
     <string name="call_btn">Call</string>
     <string name="title_phone">Call</string>
     <string name="title_train">Train</string>
-    <string name="title_agenda">Calandar</string>
+    <string name="title_agenda">Calendar</string>
     <string name="home_title">Home</string>
     <string name="train_departure">Departure</string>
     <string name="train_arrival">Arrival</string>
@@ -29,4 +29,7 @@
     <string name="hello_name">Hey, Bilal 👋</string>
     <string name="add_contact">Add a contact</string>
     <string name="itinary_subtitle">More than 1000 itinary possible...</string>
+    <string name="create_event">Add an event</string>
+    <string name="btn_add_event">Add</string>
+    <string name="agenda_sucess">Event successfully added!</string>
 </resources>

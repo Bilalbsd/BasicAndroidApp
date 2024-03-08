@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onValidate() {
-        // Initialisation des EditText de activity_main
         val lastname = findViewById<EditText>(R.id.lastnameEditText)
         val firstname = findViewById<EditText>(R.id.firstnameEditText)
         val age = findViewById<EditText>(R.id.ageEditText)

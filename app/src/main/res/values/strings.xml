@@ -33,5 +33,9 @@
     <string name="hello_name">Bonjour, Bilal 👋</string>
     <string name="add_contact">Ajouter un contact</string>
     <string name="itinary_subtitle">Plus de 1000 itinéraires possible...</string>
+    <string name="create_event">Ajouter un événement</string>
+    <string name="btn_add_event">Ajouter</string>
+    <string name="agenda_success">Evénement ajouté avec succès !</string>
+    <string name="agenda_date_error">Une erreur est survenue...</string>
 
 </resources>

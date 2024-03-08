@@ -54,7 +54,7 @@ class NavigationActivity : AppCompatActivity() {
     }
 
     private fun agendaFunc(view: View) {
-        val i = Intent(this, CallActivity::class.java)
+        val i = Intent(this, AgendaActivity::class.java)
         startActivity(i)
     }
 
